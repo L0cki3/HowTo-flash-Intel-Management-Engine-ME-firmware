@@ -1,6 +1,6 @@
 ### HowTo flash Intel Management Engine (ME) firmware
 
-This quick tutorials hows how you flash/update your Intel Management Engine (ME) firmware in some easy steps.
+This quick tutorials shows how you flash/update your [Intel Management Engine (ME)](https://en.wikipedia.org/wiki/Intel_Management_Engine) firmware in some easy steps.
 
 ## Requirements
 * The firmware itself - which you can get via [station-drivers](https://www.station-drivers.com/index.php?option=com_remository&Itemid=352&func=select&id=88&lang=en-nz) or [Win-RAID](https://www.win-raid.com/t596f39-Intel-Management-Engine-Drivers-Firmware-amp-System-Tools.html) forum.
