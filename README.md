@@ -16,9 +16,12 @@ This quick tutorials hows how you flash/update your Intel Management Engine (ME)
 
 1. Download the desired firmware if you don't know what you are on you could use the `MEInfoWin64.exe` (included in the Intel (CS)ME System Tools package) fo find out what you current firmware version is and which version you need.
 
-2. Extract the firmware to whatever place you want e.g. your Desktop or Downloads.
+2. Extract the firmware to whatever place you want e.g. your Desktop/Downloads.
 
 3. This part is optional in case you need to identify your current version first. Navigate to your Desktop or Downloads first via `cd` under a admin command promt e.g. ` cd C:\Users\CHEF-KOCH\Downloads\MEUpdate\` and call `MEInfoWin64.exe` which gives you a lot of information.
+
+![alt text](https://raw.githubusercontent.com/CHEF-KOCH/HowTo-flash-Intel-Management-Engine-ME-firmware/master/Screenshots/1.png)
+
 
 4. The flashing process is easy peasy, call `FWUpdLcl64 -FORCERESET -F ME_monfirmware.bin` (make sure you replace ME_monfirmware.bin with the correct firmware name you downloaded!).
 
