@@ -5,7 +5,7 @@ This quick tutorials shows how you flash/update your [Intel Management Engine (M
 ## Requirements
 * The firmware itself - which you can get via [station-drivers](https://www.station-drivers.com/index.php?option=com_remository&Itemid=352&func=select&id=88&lang=en-nz) or [Win-RAID](https://www.win-raid.com/t596f39-Intel-Management-Engine-Drivers-Firmware-amp-System-Tools.html) forum.
 * Windows/Linux
-* (_optional_) Intel (CS)ME System Tools, in most cases not needed since station-drivers includes a version of `FWUpdLcl64.exe`.
+* (_optional_) Intel (CS)ME System Tools, in most cases not needed since station-drivers includes a version of `FWUpdLcl64.exe` you can find a version of it under `Tools/FWUpdate/`.
 
 ### Basic starter Info
 - The label "LP" does not mean laptops (_Consumer LP Skylake-Y and Skylake-U (Mobile)_) but you can memorize it easily that this is for laptops. It comes as `5Mo`, in other words if you see LP or 5 Mo this is for laptops.
@@ -18,7 +18,7 @@ This quick tutorials shows how you flash/update your [Intel Management Engine (M
 
 2. Extract the firmware to whatever place you want e.g. your Desktop/Downloads.
 
-3. This part is optional in case you need to identify your current version first. Navigate to your Desktop or Downloads first via `cd` under a admin command promt e.g. ` cd C:\Users\CHEF-KOCH\Downloads\MEUpdate\` and call `MEInfoWin64.exe` which gives you a lot of information.
+3. This part is optional in case you need to identify your current firmware version first. Navigate to your Desktop/Downloads folder first via `cd` with a admin command promt e.g. ` cd C:\Users\CHEF-KOCH\Downloads\MEUpdate\` and call `MEInfoWin64.exe` which gives you a lot of information back. The most important one is `FW` - which tells you which version you are on and if it's LP or SH.
 
 ![alt text](https://raw.githubusercontent.com/CHEF-KOCH/HowTo-flash-Intel-Management-Engine-ME-firmware/master/Screenshots/1.png)
 
@@ -31,7 +31,7 @@ This quick tutorials shows how you flash/update your [Intel Management Engine (M
 
 #### Can I flash the wrong firmware? 
 
-Theoretically yes, practical no because FWUpdLcl64.exe automatically checks if the firmware is newer/older and if the platform/version matches with your current firmware version. If something is wrong the tool will give you an error (in red) back and does not flash anything! However you could override this by specific parameters (_which I don't tell_) but this is more in case you want to downgrade.
+Theoretically yes, practical no because `FWUpdLcl64.exe` automatically checks if the firmware is newer/older and if the platform/version matches with your current firmware version. If something is wrong the tool will give you an error (in red) back and does not flash anything! However you could override this by specific parameters (_which I don't tell_) but this is more in case you want to downgrade.
 
 #### Can I batch process this?
 
