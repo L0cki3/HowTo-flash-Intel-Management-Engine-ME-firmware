@@ -3,7 +3,7 @@
 This quick tutorials hows how you flash/update your Intel Management Engine (ME) firmware in some easy steps.
 
 ## Requirements
-* The firmware itself which you can get via [station-drivers](https://www.station-drivers.com/index.php?option=com_remository&Itemid=352&func=select&id=88&lang=en-nz) or [Win-RAID](https://www.win-raid.com/t596f39-Intel-Management-Engine-Drivers-Firmware-amp-System-Tools.html) forum.
+* The firmware itself - which you can get via [station-drivers](https://www.station-drivers.com/index.php?option=com_remository&Itemid=352&func=select&id=88&lang=en-nz) or [Win-RAID](https://www.win-raid.com/t596f39-Intel-Management-Engine-Drivers-Firmware-amp-System-Tools.html) forum.
 * Windows/Linux
 * (_optional_) Intel (CS)ME System Tools, in most cases not needed since station-drivers includes a version of `FWUpdLcl64.exe`.
 
@@ -23,9 +23,9 @@ This quick tutorials hows how you flash/update your Intel Management Engine (ME)
 ![alt text](https://raw.githubusercontent.com/CHEF-KOCH/HowTo-flash-Intel-Management-Engine-ME-firmware/master/Screenshots/1.png)
 
 
-4. The flashing process is easy peasy, call `FWUpdLcl64 -FORCERESET -F ME_monfirmware.bin` (make sure you replace ME_monfirmware.bin with the correct firmware name you downloaded!).
+4. The flashing process is easy peasy, call `FWUpdLcl64.exe -FORCERESET -F ME_my_firmware.bin` (make sure you replace `ME_my_firmware.bin` with the correct firmware name you downloaded!).
 
-5. Done. -FORCERESET is optional and results in an instant shutdown/restart.
+5. Done. The mentioned `-FORCERESET` parameter is optional and results in an instant shutdown/restart.
 
 ### Troubleshooting
 
