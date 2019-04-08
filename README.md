@@ -42,3 +42,6 @@ FWUpdLcl64 -FORCERESET -F ME_monfirmware.bin
 pause
 ```
 
+### How can I get rid of Intel ME?
+
+Basically what you have to do is [flashing a new BIOS](https://github.com/corna/me_cleaner/wiki/How-to-apply-me_cleaner). The new BIOS removes the Intel ME part within the BIOS Image. 
