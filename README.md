@@ -7,8 +7,19 @@ This quick tutorials shows how you flash/update your [Intel Management Engine (M
 * Windows/Linux
 * (_optional_) Intel (CS)ME System Tools, in most cases not needed since station-drivers includes a version of `FWUpdLcl64.exe` you can find a version of it under `Tools/FWUpdate/`.
 
+## 1M Vs. 5M - which one do I have to use?
+
+* 1.5 = Consumer
+* 5.0 = Cooperate/Enterprise
+
+However, there are exceptions, depending if your BIOS includes specific flags for e.g. AMT. If you're unsure use the [MEAnalyzer](https://github.com/platomav/MEAnalyzer) but in normal cases it's 
+
+Chipset (H means = Halo/Performance and LP stands for "Low Power")
+SKU = Consumer/Corporate/Slim/1.5MB/5MB etc.
+
+
 ### Basic starter Info
-- The label "LP" does not mean laptops (_Consumer LP Skylake-Y and Skylake-U (Mobile)_) but you can memorize it easily that this is for laptops. It comes as `5Mo`, in other words if you see LP or 5 Mo this is for laptops.
+- The label "LP" does not mean "laptops" (_Consumer LP Skylake-Y and Skylake-U (Mobile)_) but you can memorize it easily that this is for laptops.
 - 1.5M represents desktop systems, S-H means it's for Consumer Skylake-S and Skylake-H.
 - The Win-RAID [forum](https://www.win-raid.com/t596f39-Intel-Management-Engine-Drivers-Firmware-amp-System-Tools.html) has a more advance explanation but you basically don't need to know all of this since it's confusing as hell for beginners and it's difficult to understand since the overview is a mess.
 
