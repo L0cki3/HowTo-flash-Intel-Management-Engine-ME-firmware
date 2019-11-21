@@ -1,6 +1,6 @@
 ### HowTo flash Intel Management Engine (ME) firmware
 
-This quick tutorials shows how you flash/update your [Intel Management Engine (ME)](https://en.wikipedia.org/wiki/Intel_Management_Engine) firmware in some easy steps.
+This quick tutorial shows how you flash or/and update/downgrade your [Intel Management Engine (ME)](https://en.wikipedia.org/wiki/Intel_Management_Engine) firmware with some easy steps.
 
 ## Requirements
 * The firmware itself - which you can get via [station-drivers](https://www.station-drivers.com/index.php?option=com_remository&Itemid=352&func=select&id=88&lang=en-nz) or [Win-RAID](https://www.win-raid.com/t596f39-Intel-Management-Engine-Drivers-Firmware-amp-System-Tools.html) forum.
@@ -12,7 +12,7 @@ This quick tutorials shows how you flash/update your [Intel Management Engine (M
 * 1.5 = Consumer
 * 5.0 = Cooperate/Enterprise
 
-However, there are exceptions, depending if your BIOS includes specific flags for e.g. AMT. If you're unsure use the [MEAnalyzer](https://github.com/platomav/MEAnalyzer) but in normal cases it's 
+However, there are exceptions, depending if your BIOS includes specific flags for e.g. AMT. If you're unsure use the [MEAnalyzer](https://github.com/platomav/MEAnalyzer) but in normal cases it's 1.5M.
 
 Chipset (H means = Halo/Performance and LP stands for "Low Power")
 SKU = Consumer/Corporate/Slim/1.5MB/5MB etc.
